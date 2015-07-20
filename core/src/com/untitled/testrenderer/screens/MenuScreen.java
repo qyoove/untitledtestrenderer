@@ -35,7 +35,7 @@ public class MenuScreen implements Screen{
 		stage = new Stage(new ScreenViewport());
 		Table table = new Table(skin);
 		Label label = new Label("Ren-do-rah!", skin);
-		Texture texture = Resource.assetManager.get("nichi.png");
+		Texture texture = Resource.assetManager.get("4f1.jpg");
 		Image image = new Image(texture);
 		
 		TextButton loadTmxFile = new TextButton("Select Tmx File", skin);
@@ -124,7 +124,7 @@ public class MenuScreen implements Screen{
 	@Override
 	public void dispose() {
 		stage.dispose();
-		Resource.assetManager.unload("nichi.png");
+		Resource.assetManager.unload("4f1.jpg");
 	}
 	
 }

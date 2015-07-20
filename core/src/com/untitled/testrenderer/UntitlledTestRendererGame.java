@@ -15,7 +15,7 @@ public class UntitlledTestRendererGame extends Game {
 	@Override
 	public void create () {
 		Resource.assetManager.load("uiskin.json",Skin.class);
-		Resource.assetManager.load("nichi.png",Texture.class);
+		Resource.assetManager.load("4f1.jpg",Texture.class);
 		Resource.assetManager.finishLoading();
 		setScreen(new MenuScreen(this));
 	}
